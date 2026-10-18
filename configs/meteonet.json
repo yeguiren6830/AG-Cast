@@ -1,0 +1,20 @@
+{
+  "dataname": "meteonet",
+  "pre_seq_length": 5,
+  "aft_seq_length": 20,
+  "in_shape": [
+    5,
+    1,
+    128,
+    128
+  ],
+  "groups": {
+    "train": "train",
+    "val": "val",
+    "test": "test"
+  },
+  "storage_layout": "samples",
+  "use_augment": false,
+  "physical_scale": 70.0,
+  "physical_offset": 0.0
+}

@@ -1,0 +1,29 @@
+{
+  "dataname": "sevir",
+  "pre_seq_length": 13,
+  "aft_seq_length": 12,
+  "in_shape": [
+    13,
+    1,
+    128,
+    128
+  ],
+  "groups": {
+    "train": "train",
+    "val": "val",
+    "test": "test"
+  },
+  "storage_layout": "array",
+  "use_augment": false,
+  "physical_scale": 47.54,
+  "physical_offset": 33.44
+}
+
+
+
+
+
+
+
+
+

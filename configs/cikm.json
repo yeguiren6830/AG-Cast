@@ -1,0 +1,20 @@
+{
+  "dataname": "cikm",
+  "pre_seq_length": 5,
+  "aft_seq_length": 10,
+  "in_shape": [
+    5,
+    1,
+    128,
+    128
+  ],
+  "groups": {
+    "train": "train",
+    "val": "valid",
+    "test": "test"
+  },
+  "storage_layout": "samples",
+  "use_augment": false,
+  "physical_scale": 95.0,
+  "physical_offset": -10.0
+}
